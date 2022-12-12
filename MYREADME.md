@@ -1,0 +1,10 @@
+////////// MINE FINDER //////////
+
+
+Welcome to MINE FINDER! The object of MINE FINDER is to locate all of the mines on the game board, plant flags on the mine squares, and avoid clicking on any mine squares in the process. To win, you simply need to match your flags to the randomized mine locations on the game board. The game board will contain 100 clickable squares. 20 of those squares will contain randomly placed mines and you will start with 20 flags to mark the mine squares.
+
+Start the game by clicking at any random place on the game board. When you do, a number of things could happen. If you click on a mine square, you lose and the game is over. If you click a square and a "1" appears, this means that "one" directly adjacent square contains a mine. If you click a square and a "2" appears, this means that "two" directly adjacent squares contain mines. This is true all the way up to "8". If you click a square and an "8" appears, this means that all "eight" directly adjacent squares contain mines. Directly adjacent squares are the squares immediately to the North, South, East, West, Northeast, Southeast, Northwest, and Southwest of the square you've clicked. If you click on a square with no mines directly adjacent to that square, something amazing happens! The squares will automatically clear themselves until they reach a square that contains a number 1-8 (or until the edge of the game board is reached)!
+
+Use logic and the information contained in the clicked squares to determine the location of the mines. Once you determine that an unclicked square is a mine, plant a flag on that square by utilizing the "right-click" button on your mouse. This will make the square safe and prevent you from accidentally clicking on the mine as you progress through gameplay. If you find out that you've made a mistake and the square you placed a flag on does not contain a mine, simply right-click the square again und the flag will be removed.
+
+If all of your flags are matched correctly to the randomized mine locations, you win! Beware though, if you click on a square that contains a mine that has not been flagged, you lose!

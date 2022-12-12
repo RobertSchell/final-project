@@ -1,0 +1,160 @@
+body {
+background-color: #003049;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #003049;
+    animation: 4s anim-popoutin ease 1s;
+    margin-top: -10px;
+}
+  
+  @keyframes anim-popoutin {
+    0% {
+      color: black;
+      transform: scale(0);
+      opacity: 0;
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    25% {
+      color: #003049;
+      transform: scale(2);
+      opacity: 1;
+      text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+      color: black;
+      transform: scale(1);
+      opacity: 1;
+      text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+      text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.container {
+    border: 5px solid #d62828;
+    background-color: #eae2b7;
+    width: 500px;
+    margin: 0 auto;
+    padding: 80px;
+    box-shadow: 0px 0px 10px 5px black;
+}
+  
+.grid {
+    height: 400px;
+    width: 400px;
+    /* so squares appear inline/wrap */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dcd6bc;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 10px solid #dcd6bc;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px 5px black;
+}
+  
+div {
+    font-size: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d62828;
+}
+
+.safe {
+    height: 40px;
+    width: 40px;
+    border: 5px solid;
+    border-color: lightgray gray gray lightgray;
+    box-sizing: border-box;
+}
+  
+.checked {
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    background-color: #cecab7;
+    border-color: #9c998d;
+    box-sizing: border-box;
+}
+  
+.mine {
+    height: 40px;
+    width: 40px;
+    border: 5px solid;
+    border-color: lightgray gray gray lightgray;
+    box-sizing: border-box;
+}
+  
+.one {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.two {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.three {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.four{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.five{
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.six{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seven{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.eight{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#result {
+    margin-top: 5px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    background-color: #003049;
+    box-shadow: 3px 3px #83817a;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.reset-button {
+    font-size: 13px;
+    color: white;
+}
+
+#flagsLeft {
+    color: #003049;
+}
+
+.dark-button {
+    font-size: 13px;
+    color: white;
+}
